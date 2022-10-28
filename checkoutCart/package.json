@@ -1,0 +1,24 @@
+{
+  "name": "checkoutcart",
+  "version": "1.0.0",
+  "description": "User checkout chart with testing suites. TDD-styled engineering.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "checkoutCart"
+  ],
+  "author": "Evan Scallan",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.1.0",
+    "request": "^2.88.2",
+    "sinon": "^14.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}
